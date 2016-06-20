@@ -1,0 +1,233 @@
+/* general document */
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background-color: white;
+ color: black;
+ margin: 0;
+ padding: 0;
+ clear: both;
+ text-align: left;
+ font-family: sans-serif, arial;
+}
+
+#wrapper {
+ background-color: white;
+ width: 100%;
+ height: 100%;
+ position: relative;
+ margin: 0 auto;
+}
+
+/* header and navigation */
+header.primary {
+ background-color: #FF5722;
+ color: white;
+ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.26);
+ width: 100%;
+ height: 70px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ margin: 0 auto;
+ padding: 10px 30px;
+ text-align: left;
+ line-height: 50%;
+ vertical-align: middle;
+ z-index: 100;
+ -webkit-user-select: none;
+ -ms-user-select: none;
+ -moz-user-select: none;
+ -o-user-select: none;
+ user-select: none;
+}
+
+header.primary h2 {
+ margin-left: 30px;
+ float: left;
+ display: inline-block;
+ cursor: pointer;
+ font-weight: normal;
+}
+
+a {
+ color: inherit;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+/* document content */
+main.primary {
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.button {
+ background-color: #FF8A65;
+ color: #FBE9E7;
+ padding: 5px;
+ font-size: 22px;
+ text-align: center;
+ cursor: pointer;
+ -webkit-transition: background-color 1s, color 1s;
+ -ms-transition: background-color 1s, color 1s;
+ -moz-transition: background-color 1s, color 1s;
+ -o-transition: background-color 1s, color 1s;
+ transition: background-color 1s, color 1s;
+ -webkit-user-select: none;
+ -ms-user-select: none;
+ -moz-user-select: none;
+ -o-user-select: none;
+ user-select: none;
+}
+
+.button:hover, .button.active {
+ background-color: #FF3D00;
+ color: white;
+}
+
+main.primary section.main {
+ color: black;
+ width: 100%;
+ margin: auto;
+ padding: 100px 5%;
+ float: left;
+}
+
+main.primary article {
+ background-color: white;
+ padding: 20px;
+ display: block;
+ text-align: center;
+}
+
+main.primary article header {
+ text-align: center;
+}
+
+main.primary article div.content {
+ text-align: left;
+}
+
+main.primary article span.heading {
+ display: block;
+ font-size: 25px;
+ font-weight: bold;
+}
+
+main.primary article span.subheading {
+ display: block;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+main.primary div.content p {
+ font-size: 20px;
+}
+
+#counterContainer {
+ padding: 50px;
+ text-align: center;
+ -webkit-user-select: none;
+ -ms-user-select: none;
+ -moz-user-select: none;
+ -o-user-select: none;
+ user-select: none;
+}
+
+#counterContainer #counter {
+ font-size: 150px;
+ display: block;
+}
+
+#counterButtonContainer {
+ margin: 0px;
+ padding: 0px;
+ text-align: center;
+ list-style: none;
+}
+
+#counterButtonContainer li {
+ margin: 2.5px auto;
+ display: inline-block;
+}
+
+#counterButtonContainer li a.button {
+ width: 100px;
+ display: block;
+}
+
+main.primary article footer {
+ text-align: left;
+ font-size: 15px;
+}
+
+hr {
+ border-width: 0;
+ width: 100%;
+ height: 2px;
+}
+
+article hr {
+ background-color: #CFD8DC;
+}
+
+.links a {
+ -webkit-transition: color 0.5s;
+ -ms-transition: color 0.5s;
+ -moz-transition: color 0.5s;
+ -o-transition: color 0.5s;
+ transition: color 0.5s;
+}
+
+span.links a.icon {
+ margin: 5px;
+}
+
+.links a {
+ font-size: 20px;
+ color: blue;
+}
+
+.links a:hover {
+ color: purple;
+}
+
+/* footer */
+footer.primary {
+ background-color: #FF3D00;
+ color: white;
+ width: 100%;
+ margin-top: 100px;
+ padding: 10px;
+ float: left;
+ clear: both;
+ text-align: center;
+}
+
+footer.primary span.heading {
+ font-size: 25px;
+ display: block;
+ margin-bottom: 5px;
+}
+
+footer.primary span.links {
+ display: inline-block;
+ position: relative;
+ margin: 5px;
+}
+
+footer.primary span.links a {
+ color: #FBE9E7;
+}
+
+footer.primary span.links a:hover {
+ color: white;
+}
+
+footer.primary hr {
+ background-color: #FF7043;
+}
