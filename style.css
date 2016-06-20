@@ -89,6 +89,12 @@ main.primary {
  color: white;
 }
 
+.fb-xfbml-parse-ignore {
+ background-color: #3b5998;
+ color: white;
+ padding: 5px;
+}
+
 main.primary section.main {
  color: black;
  width: 100%;
@@ -161,7 +167,7 @@ main.primary div.content p {
 }
 
 main.primary article footer {
- text-align: left;
+ text-align: center;
  font-size: 15px;
 }
 
@@ -201,7 +207,7 @@ footer.primary {
  background-color: #FF3D00;
  color: white;
  width: 100%;
- margin-top: 100px;
+ margin-top: 50px;
  padding: 10px;
  float: left;
  clear: both;
